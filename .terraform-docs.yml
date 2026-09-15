@@ -1,0 +1,35 @@
+formatter: "markdown"
+version: ">= 0.16.0"
+
+show:
+  data-sources: true
+  header: true
+  inputs: true
+  modules: true
+  outputs: true
+  providers: true
+  requirements: true
+  resources: true
+
+sort:
+  enabled: true
+  by: "name"
+
+output-file: "README.md"
+output-mode: "inject"
+
+input:
+  enabled: true
+  description: true
+  default: true
+  required: true
+  type: true
+
+output:
+  enabled: true
+  description: true
+  sensitive: true
+  type: true
+
+escape: true
+indent: 2
